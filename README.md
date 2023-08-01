@@ -9,10 +9,11 @@ Game Engine Sandbox
 ## Dependencies
 
 - C++17 Compiler (e.g g++)
-- make `sudo apt install make`
-- SFML `sudo apt install libsfml-dev`
-- ncurses `sudo apt install libncurses5-dev`
-- MariaDB Connector/C++ [source](https://mariadb.com/fr/resources/blog/how-to-connect-c-programs-to-mariadb/)
+- make : `sudo apt install make`
+- SFML : `sudo apt install libsfml-dev`
+- ncurses : `sudo apt install libncurses5-dev`
+- MariaDB server and client (for now) : `sudo apt install mariadb-server`
+- MariaDB Connector/C++ : `sudo apt install libmariadb-dev`
 
 ## Install & Run
 
@@ -23,9 +24,15 @@ Game Engine Sandbox
 
 ## ToDo list
 
+- Event manager (WIP)
+- Multi windows & focus handling
 - State manager (WIP)
 - Multi language handling (WIP)
 - Resource manager
+- Utility : reader for property files (json ?)
+- Settings
+- Graphic mode : button
+- Graphic mode : text area
 - Graphic mode : screen scrolling
 - Graphic mode : collision & physics
 - Graphic mode : animations
