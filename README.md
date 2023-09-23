@@ -1,42 +1,48 @@
-# Adventure Game
+# Flat Engine
 
-Just travel freely
+2D Game Engine Sandbox
 
-Game Engine Sandbox
+Just travelling freely
 
 ---
 
 ## Dependencies
 
-- C++17 Compiler (e.g g++)
+- a C++17 Compiler (e.g g++)
+- [SFML](https://www.sfml-dev.org) : `sudo apt install libsfml-dev`
 - make : `sudo apt install make`
-- SFML : `sudo apt install libsfml-dev`
-- ncurses : `sudo apt install libncurses5-dev`
-- MariaDB server and client (for now) : `sudo apt install mariadb-server`
-- MariaDB Connector/C++ : `sudo apt install libmariadb-dev`
 
 ## Install & Run
 
-- clone from github `git clone https://www.github.com/SamDwarf/AdventureGame.git`
-- `cd AdventureGame`
-- `make`
-- `bin/FreeTravel` to execute
+- Clone the project from github : `git clone https://www.github.com/SamDwarf/FlatEngine.git`
+- `cd FlatEngine`
+- `make` to compile (edit the Makefile if you use another compiler or options)
+- `bin/FlatEngine` to execute
+
+---
 
 ## ToDo list
 
-- Event manager (WIP)
+- NodeManager (WIP)
 - Multi windows & focus handling
-- State manager (WIP)
-- Multi language handling (WIP)
-- Resource manager
-- Utility : reader for property files (json ?)
-- Settings
-- Graphic mode : button
-- Graphic mode : text area
-- Graphic mode : screen scrolling
-- Graphic mode : collision & physics
-- Graphic mode : animations
-- Text mode with ncurses
+- Screen scrolling
+- Collisions & physics
+- preset/ButtonNode
+- preset/MenuNode
+- preset/TextInputNode
+- Utility : config files reader
+- Settings : key bindings
+- ResourceManager
+- Animations
+- Sounds and music
 - Map : grid
 - Map : graph
+- Map : free
+- Graphical map editor
+- Entities
+- Save
+- Inventory & InventoryNode
+- Gamemaker console (edit code and Makefile)
+- Multi languages handling
+- Text mode with ncurses ?
 
